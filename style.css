@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  width: 100 vh;
+  height: 100vh;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.img-1 {
+  background-image: url('img/amanecer.png');
+}
+
+.img-2 {
+  background-image: url('img/atardecer.png');
+}
+
+.img-3 {
+  background-image: url('img/anochecer.png');
+}
+
+.parallax h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 50vh;
+  color: azure;
+  font-family: sans-serif;
+  font-size: 4vh;
+}
